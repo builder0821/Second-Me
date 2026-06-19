@@ -83,7 +83,8 @@ COPY pyproject.toml README.md /app/
 # Fix for potential package installation issues with Poetry
 RUN pip install --upgrade setuptools wheel
 RUN poetry install --no-interaction --no-root || poetry install --no-interaction --no-root --without dev
-RUN pip install --force-reinstall dependencies/graphrag-1.2.1.dev27.tar.gz
+# RUN pip install --force-reinstall dependencies/graphrag-1.2.1.dev27.tar.gz
+RUN pip install graphrag==1.2.1
 
 # Copy source code - Files that frequently change
 COPY docker/ /app/docker/
