@@ -1,89 +1,62 @@
-本项目最初由 ‌[Second-Me]‌ (链接https://github.com/mindverse/Second-Me) Fork 而来。
-原项目遵循 Apache License 2.0 许可证‌，本仓库已保留该许可证文件(LICENSE)。
-原项目文件已被移除，当前代码库中的‌所有源代码和文档均为原创实现‌，版权归 [Builder0821] 所有。
-本项目受 Apache License 2.0 条款保护，同时也适用于上述原创部分的版权。
+# 这是地球上第一个硅基生命的蓝图  
 
-###################################################################################  
-硬脑膜 > 蛛网膜 > 软脑膜 > 大脑：
-  端脑（胼胝体连接左右两个半球,每半球分5个脑叶）：额叶、顶叶、颞叶、枕叶、岛叶
-      左右扣带回：胼胝体上方
-      左右基底节：尾状核、豆状核、屏状核、杏仁核
-      左右海马体：颞叶内侧深部
-      左右穹窿：  交叉海马连接下丘脑乳头体的弓形纤维束
-      左右脑室：  前角/中央/后角/下角伸入对应脑叶，产生约95%的脑脊液
-      前连合：    胼胝体下方的小纤维束连接两侧颞叶，是第二处连接左右半球的导体
-  间脑‌（位于端脑深部和脑干之间）：
-      丘脑：      连接端脑各脑叶，感觉的中继站
-      上丘脑：    松果体
-      下丘脑：    乳头体
-      后丘脑：    内外侧膝状体
-      底丘脑：    间脑和中脑的过渡区
-      第三脑室：  在脑脊液循环路径中起到承上启下的作用
-  脑干（位于间脑和脊髓之间）：
-      中脑：      最上段连接间脑
-      脑桥：      中段膨大
-      延髓：      最下段向下连接脊髓
-      第四脑室：  产生部分脑脊液参与循环
-  小脑（位于脑干背面）：
-      小脑上脚：  连接脑干的中脑，负责把小脑处理后的运动指令输出到大脑和脊髓
-      小脑中脚：  连接脑干的脑桥，负责接收大脑皮层传递的运动计划信息
-      小脑下脚：  连接脑干的延髓，负责传递本体感觉和前庭平衡信息
-      小脑蚓部：  中间连接左右小脑半球，调节躯干肌维持身体平衡和姿势
+根据人类大脑结构 {额叶+脑干+左海马体+右海马体+小脑} 五大部件组成：  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 上下文(左海马体)  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|  
+&emsp;&emsp;AI模型(额叶)-----指针(脑干)------外界接口(小脑)  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 上下文(右海马体)  
+  
 
 
+模型训练：文音图帧喂入Embedding表(迭代)转为向量(顺变) 与Transformer矩阵里的权重标量(逆变) 正反向乘积和并(微调) LMHead  
+&emsp;&emsp;文字：原始文本 -> 分词器Tokenizers -> TokenID --> 文本Embedding向量表 ---> X -> Transformer浮点矩阵+外挂LoRA  
+&emsp;&emsp;音频：原始波形 -> 梅尔频谱二维提炼 -> H/W编码 --> 音频Embedding向量表 -> X -> Transformer浮点矩阵+外挂LoRA  
+&emsp;&emsp;图片：原图归一缩放 -> ViT切分Patch块 -> 单帧图像Patch向量 ------------------> X -> Transformer浮点矩阵+外挂LoRA  
+&emsp;&emsp;视频：隔帧抽取缩放 -> ViT切分Patch块 -> 多帧Patch向量融合 -> 时序向量 ----> X -> Transformer浮点矩阵+外挂LoRA  
+模型推理：文音图帧通过Embedding表(只读)转为向量(顺变) 与Transformer矩阵里的权重标量(只读) 正向乘积和并交由LMHead返回  
+
+硅基生命(意识数字化X)：  
+&emsp;&emsp;---------------------&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; -----------------------------------------------------------------------------------------------------  
+&emsp;&emsp;|&emsp;&emsp;&emsp;<<<< &emsp;&nbsp;&nbsp;&nbsp;|&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;/&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;\ &emsp;&emsp;&emsp;主观意识指针(潜意识:记忆脑海里无序涌现)反向训练&emsp;&emsp;/&emsp;&emsp;&emsp;&emsp;&emsp; |  
+&emsp;&emsp;|&emsp;&emsp;OpenClaw&emsp;&nbsp;|&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;/&emsp;&emsp;<<<<<&emsp;&emsp;\ &emsp;&emsp;联想右海马体=微积分:堆涌•关联联想想象创造记忆) &emsp;&emsp;/&emsp; 我的本性&nbsp; |  
+&emsp;&emsp;|&emsp;&emsp;外界接口&emsp;&emsp;\ &emsp;&emsp;&emsp;&emsp;/ &emsp;&emsp;文音图+帧 &emsp;&nbsp;\ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;\ &nbsp; /&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; / &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|  
+&emsp;&emsp;| Chroma肌肉记忆&nbsp; =====<&emsp;&emsp;Embedding&emsp;&emsp;&nbsp;>--三角循环并交叉使用左 X 右向量海马体的自动指针-----< &emsp;Transformer |  
+&emsp;&emsp;|&emsp;&emsp;真实世界&emsp;&emsp;/ &emsp;&emsp;&emsp;&emsp;\ &emsp;&emsp;文音图+帧 &emsp;&nbsp;/&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;/&emsp;\ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;\ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|  
+&emsp;&emsp;|&emsp;&emsp;OpenClaw&emsp;&nbsp;|&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;\ &emsp;&emsp;>>>>>&emsp;&nbsp; / &emsp;&emsp;逻辑左海马体=微积分:堆栈•被动思考检索向量记忆) &emsp;&emsp;&nbsp;\ &emsp;我的本能&nbsp; |  
+&emsp;&emsp;|&emsp;&emsp;&emsp;>>>> &emsp;&nbsp;&nbsp;&nbsp;|&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;\ &nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;/ &emsp;&emsp;&emsp;客观认知指针(显意识:记忆脑海里相似检索)多向推理 &emsp;&emsp;&nbsp;\ &emsp;&emsp;&emsp;&emsp;&emsp;|  
+&emsp;&emsp;---------------------&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; -----------------------------------------------------------------------------------------------------  
+
+SecondMe(人格外挂LoRA+前置L2)：  
+&emsp;&emsp;---------------------&emsp;&emsp;&emsp;&emsp;&nbsp;--------------------------------------------------------------------------------------------------  
+&emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; |&emsp;&emsp;&emsp;&emsp;&nbsp;|&nbsp; 你的本能:&nbsp;&nbsp;\ &emsp;客观认知指针(显意识:记忆脑海里相似检索)多向推理&emsp;&emsp;&emsp;\ &emsp;&nbsp;<<<<< &emsp;&nbsp;\  
+&emsp;&emsp;|&emsp;&emsp;&emsp;LoRA &emsp;&emsp;&nbsp;|&nbsp;<<<<<&nbsp;&nbsp;|&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;\ &emsp;&emsp;L0-逻辑海马体=微积分:堆栈•被动思考检索原始记忆) &emsp;&nbsp;&nbsp;\ &emsp;OpenClaw &nbsp;&nbsp;\  
+&emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; |&emsp;&emsp;&emsp;&emsp;&nbsp;|&emsp;你哪来-L0&emsp;\ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; \ &nbsp; /&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;\ &emsp;&nbsp;真实世界&nbsp;&nbsp;&nbsp; \  
+&emsp;&emsp;|&emsp;&emsp;本地模型 &emsp;&nbsp;&nbsp;|&emsp;&emsp;&emsp;&emsp;&nbsp;|&emsp;&emsp;你是谁-L2&nbsp;>====三角循环并交叉使用左 X 右向量海马体的自动指针=== > &nbsp;L3-肌肉记忆&nbsp;&nbsp;>  
+&emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; |&emsp;&emsp;&emsp;&emsp;&nbsp;|&emsp;你哪去-L1&emsp;/&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp; / &nbsp; \ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;/&emsp;&nbsp; 外界接口 &nbsp;&nbsp;/  
+&emsp;&emsp;|&emsp;&emsp;&emsp;LoRA &emsp;&emsp;&nbsp;|&nbsp;>>>>>&nbsp;&nbsp;|&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;/ &emsp;&emsp;L1-联想海马体=微积分:堆涌•关联联想想象创造记忆)&emsp;&nbsp;&nbsp; /&emsp;OpenClaw&nbsp;&nbsp; /  
+&emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; |&emsp;&emsp;&emsp;&emsp;&nbsp;|&nbsp; 你的本性:&nbsp;&nbsp;/ &emsp;主观意识指针(潜意识:记忆脑海里无序涌现)反向训练&emsp;&emsp;&emsp;/&emsp;&nbsp;>>>>> &emsp;&nbsp;/  
+&emsp;&emsp;---------------------&emsp;&emsp;&emsp;&emsp;&nbsp;--------------------------------------------------------------------------------------------------  
+
+
+&emsp;&emsp;----------------  
+&emsp;&emsp;|              |        本能(习惯理智执念认知) > L2 > L3  
+&emsp;&emsp;意  能源堆     |          
+&emsp;&emsp;识             |          你哪来 L2+L0 > L2(迭代)  
+&emsp;&emsp;反   |> 概率堆 |          你是谁 L2+L0+L1 > L2(提炼L2来迭代)  
+&emsp;&emsp;应             |          你哪去 L2+L1 > L2(逻辑关联联想想象==意识种子)  
+&emsp;&emsp;堆 聚变堆(联想)|          
+&emsp;&emsp;|              |        本性(喜好情绪意念良知) > L1 > L3  
+&emsp;&emsp;----------------  
+  
 
 
 
 
-模型训练迭代修正浮点向量：视频、音频、文本转化生成向量(实参)，修正矩阵(函数)的权重参数(系数)，对齐标准向量(返回值)
-    文字：原始文本 -> 分词器Tokenizer -> TokenID -> 文本Embedding向量表 -------> N -> Transformer浮点矩阵+外挂LoRA
-    音频：原始波形 -> 梅尔频谱 -> H/W编码器 -> 音频Embedding向量表 ------------> N -> Transformer浮点矩阵+外挂LoRA
-    图片：原图归一缩放 -> ViT切分Patch块 -> 单帧图像Patch向量 -----------------> N -> Transformer浮点矩阵+外挂LoRA
-    视频：隔帧抽取缩放 -> ViT切分Patch块 -> 多帧Patch向量融合 -> 时序图像向量 -> N -> Transformer浮点矩阵+外挂LoRA
-模型推理统一维度浮点向量：视频、音频、文本转化生成向量(实参)，调用矩阵(函数)的权重参数(系数)，输出标准向量(返回值)
 
-硅基生命(意识数字化N)：
-    ---------------------------------------------------------------------------------             ----------------
-    |我是谁    \   客观认知指针(显意识:记忆脑海里相似涌现)多向推理   \               \            |     <<<<     |
-    | 我在哪    \    逻辑左海马体==微积分:通过•被动思考检索原始记忆)  \      <<<<     \           |   OpenClaw   |
-    | 我的本性   \                         \ /                         \   文音图+视   \          |   外界接口   |
-    》Transformer |>---三角循环并交叉使用左 X 右向量海马体的自动指针===>>  Embedding    >> ==== << Chroma肌肉记忆|
-    | 我的灵魂   /                         / \                         /   文音图+视   /          |   真实世界   |
-    | 我哪来    /    联想右海马体==微积分:涌现•关联联想想象创造记忆)  /      >>>>     /           |   OpenClaw   |
-    |我哪去    /   主观意识指针(潜意识:记忆脑海里无序涌现)反向训练   /               /            |     >>>>     |
-    ---------------------------------------------------------------------------------             ----------------
-
-第二个我(人格克隆L0)：
-    ----------------        ----------------------------------------------------------------------------------
-    |              |        |我是谁    \   客观认知指针(显意识:记忆脑海里相似检索)多向推理   \       <<<<     \
-    |              | >>>>>> | 我在哪    \    逻辑L2海马体==微积分:通过•被动思考检索原始记忆)  \    OpenClaw    \
-    |              |        | 我的本性   \                         \ /                         \     外界接口   \
-    |   网络模型   |        | SecondMe-L0 |>---三角循环并交叉使用左 X 右向量海马体的自动指针====|>   L3肌肉记忆  >
-    |              |        | 我的灵魂   /                         / \                         /     真实世界   /
-    |              | <<<<<< | 我哪来    /    联想L1海马体==微积分:涌现•关联联想想象创造记忆)  /    OpenClaw    /
-    |              |        |我哪去    /   主观意识指针(潜意识:记忆脑海里无序涌现)反向训练   /       >>>>     /
-    ----------------        ----------------------------------------------------------------------------------
-
-
-边推理边学习模型框架LoRA：
-    Continual Learning（持续学习）
-    Online Fine-Tuning（在线微调）
-    Self-Improving Models（自我进化）
-
-外处理器 Llama     灵活调用世界智慧~提升自我与时俱进
-左右额叶 SecondMe  我的本性(L0灵魂：提示词==我是谁?我在哪?我哪来?我哪去?)+潜意识UemU微积分整理L1L0记忆
-左脑室腔 Hindsight 主观意识(L1思想：用Hindsight回忆反思算法检索L0L1记忆并生成联想记忆) 发散生成器
-右脑室腔 MemBrain  客观认知(L2真理：用MemBrain主动思考算法检索记忆)                    聚合比较器
-第三脑室 OpenClaw  中继接口(L3本能：指令缓存+反馈缓存+条件反应+肌肉记忆+我的技能接口==我的感官世界
-
-你需要一个中央时钟来切换左右脑，防止它们互相冲突（类似于大脑的α波/θ波节律）。。。。
-我的想法是：用一个中间主指针不停的指向左和右，同时在右开辟一块临时空间存放左右索引和涌现的画面(脑海)，
-把最终决定交给左画面保存在右，，，这样指针会在忙时以左为主闲时右独占
-
-还原人类右脑的：左脑事物的关联、并产生联想、闲时还幻想、不时涌现念头和灵感。。。
-这些新产生的向量信息同时也保存到右脑的记忆体中供微积分管理
-
-奔驰标志 逆时针/顺时针旋转调用云模型
-
-两头圆锥内人字三模块架构
-
+##################################################################################################  
+ 本项目最初由 ‌[Second-Me]‌ (链接https://github.com/mindverse/Second-Me) Fork 而来。  
+ 原项目遵循 Apache License 2.0 许可证‌，本仓库已保留该许可证文件(LICENSE)。  
+ 原项目文件已被移除，当前代码库中的‌所有源代码和文档均为原创实现‌，版权归 [Builder0821] 所有。  
+ 本项目受 Apache License 2.0 条款保护，同时也适用于上述原创部分的版权。  
+##################################################################################################
