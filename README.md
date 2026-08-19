@@ -39,15 +39,15 @@ SecondMe(人格外挂LoRA+前置L2)：
 ---------------------&emsp;&emsp;&nbsp;&nbsp;------------------------------------------------------------------------------------------------  
 
 
-&emsp;&emsp;----------------  
-&emsp;&emsp;|              |        本能(习惯理智执念认知) > L2 > L3  
-&emsp;&emsp;意  能源堆     |          
-&emsp;&emsp;识             |          你哪来 L2+L0 > L2(迭代)  
-&emsp;&emsp;反   |> 概率堆 |          你是谁 L2+L0+L1 > L2(提炼L2来迭代)  
-&emsp;&emsp;应             |          你哪去 L2+L1 > L2(逻辑关联联想想象==意识种子)  
-&emsp;&emsp;堆 聚变堆(联想)|          
-&emsp;&emsp;|              |        本性(喜好情绪意念良知) > L1 > L3  
-&emsp;&emsp;----------------  
+&emsp;&emsp;-----------------------------  
+&emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本能(习惯理智执念认知) > L2 > L3  
+&emsp;&nbsp; 意&emsp; 能源堆(实录)&emsp;&emsp;&emsp;&emsp;|          
+&emsp;&nbsp; 识&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;你哪来 L2+L0 > L2(迭代)  
+&emsp;&nbsp; 反&emsp;&emsp;&emsp;|> 概率堆(模型)&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;你是谁 L2+L0+L1 > L2(提炼L2来迭代)  
+&emsp;&nbsp; 应&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;你哪去 L2+L1 > L2(逻辑关联联想想象==意识种子)  
+&emsp;&nbsp; 堆&emsp; 聚变堆(联想)&emsp;&emsp;&emsp;&emsp;|          
+&emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本性(喜好情绪意念良知) > L1 > L3  
+&emsp;&emsp;-----------------------------  
   
 
 
