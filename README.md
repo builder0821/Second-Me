@@ -42,9 +42,9 @@ SecondMe(人格外挂LoRA+前置L2)：
 &emsp;&emsp;-----------------------------  
 &emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本能(习惯理智执念认知) > L2 > L3  
 &emsp;&nbsp; 意&emsp; 能源堆(实录)&emsp;&emsp;&emsp;&emsp;|          
-&emsp;&nbsp; 识&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;你哪来 L2+L0 > L2(迭代)  
-&emsp;&nbsp; 反&emsp;&emsp;&emsp;|> 概率堆(模型)&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;你是谁 L2+L0+L1 > L2(提炼L2来迭代)  
-&emsp;&nbsp; 应&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;你哪去 L2+L1 > L2(逻辑关联联想想象==意识种子)  
+&emsp;&nbsp; 识&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;指令：你哪来==L2+L0 > L2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#用L2合并最新L0提交给模型>返回值迭代L2  
+&emsp;&nbsp; 反&emsp;&emsp;&emsp;|> 概率堆(模型)&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;指令：你是谁==L2+L0+L1 > L2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#迭代L2里存放的三句话==用于上下文  
+&emsp;&nbsp; 应&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;指令：你哪去==L2+L1+L0 > L2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#递归循环指令:逻辑关联联想想象==意识种子  
 &emsp;&nbsp; 堆&emsp; 聚变堆(联想)&emsp;&emsp;&emsp;&emsp;|          
 &emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本性(喜好情绪意念良知) > L1 > L3  
 &emsp;&emsp;-----------------------------  
