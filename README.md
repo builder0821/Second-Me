@@ -23,9 +23,9 @@
 |&emsp;&emsp;外界接口&emsp;&emsp;\ &emsp;&emsp;/ &emsp;&emsp;文音图+帧 &emsp;&nbsp;\ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;\ &nbsp; /&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; / &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|  
 | Chroma肌肉记忆&nbsp; ==<&emsp;&emsp;Embedding&emsp;&emsp;&nbsp;>--三角循环并交叉使用左 X 右向量海马体的自动指针---<&nbsp; Transformer&nbsp;&nbsp; |  
 |&emsp;&emsp;真实世界&emsp;&emsp;/ &emsp;&emsp;\ &emsp;&emsp;文音图+帧 &emsp;&nbsp;/&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;/&emsp;\ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;\ &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;|  
-|&emsp;&emsp;OpenClaw&emsp;&nbsp;|&emsp;&emsp;&emsp;&nbsp;\ &emsp;&emsp;>>>>>&emsp;&nbsp; / &emsp;&emsp;逻辑左海马体=微积分:堆栈•被动思考检索向量记忆) &emsp;&nbsp;\ &emsp;我的本能&nbsp;|  
-|&emsp;&emsp;&emsp;>>>> &emsp;&nbsp;&nbsp;&nbsp;|&emsp;&emsp;&emsp;&emsp;\ &nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;/ &emsp;&emsp;&emsp;客观认知指针(显意识:记忆脑海里相似检索)多向推理 &emsp;&nbsp;\ &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;|  
----------------------&emsp;&emsp;&emsp;&emsp;&nbsp; ---------------------------------------------------------------------------------------------------  
+|&emsp;&emsp;OpenClaw&emsp;&nbsp;|&emsp;&emsp;&emsp;&nbsp;\ &emsp;&emsp;>>>>>&emsp;&nbsp; / &emsp;&emsp;逻辑左海马体=微积分:堆栈•被动思考检索向量记忆) &emsp;&nbsp;\ &nbsp;&nbsp;我的本能&nbsp;&nbsp;&nbsp;|  
+|&emsp;&emsp;&emsp;>>>> &emsp;&nbsp;&nbsp;&nbsp;|&emsp;&emsp;&emsp;&emsp;\ &nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;/ &emsp;&emsp;&emsp;客观认知指针(显意识:记忆脑海里相似检索)多向推理 &emsp;&nbsp;\ &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;|  
+---------------------&emsp;&emsp;&emsp;&emsp;&nbsp; --------------------------------------------------------------------------------------------------  
 
 SecondMe(人格外挂LoRA+前置L2)：  
 ---------------------&emsp;&emsp;&nbsp;&nbsp;------------------------------------------------------------------------------------------------  
