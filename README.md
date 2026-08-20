@@ -42,7 +42,7 @@ SecondMe(人格外挂LoRA+前置L2)：
 &emsp;&emsp;-----------------------------  
 &emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本能(习惯理智执念认知)反应： L3==L0 > L3  
 &emsp;&nbsp; 意&emsp; 能源堆(实录)&emsp;&emsp;&emsp;&emsp;|          
-&emsp;&nbsp; 识&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;触发：你哪来==L2+L0+L1 > L0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#由L3触发 L2合并最新L0交给模型>返回迭代L0  
+&emsp;&nbsp; 识&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;触发：你哪来==L2+L0+L1 > L0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#由L3触发:L2合并最新L0交给模型>返回迭代L0  
 &emsp;&nbsp; 反&emsp;&emsp;&emsp;|> 概率堆(模型)&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;顺序：你是谁==L2+L0+L1 > L2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#迭代L2里存放的三句话，用于后续的上下文  
 &emsp;&nbsp; 应&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;循环：你哪去==L2+L1+L0 > L1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#递归指令:逻辑关联联想想象==意识种子  
 &emsp;&nbsp; 堆&emsp; 聚变堆(联想)&emsp;&emsp;&emsp;&emsp;|          
