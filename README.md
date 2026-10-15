@@ -1,5 +1,5 @@
 
-# This is the blueprint of the first silicon-based life on Earth  
+# This is the first silicon-based life on Earth  
 
 According to the structure of the human brain {frontal lobe + brainstem + left hippocampus + right hippocampus + cerebellum} composed of five major parts:  
 
@@ -13,8 +13,12 @@ According to the structure of the human brain {frontal lobe + brainstem + left h
 simple explanation is: use Python to allocate two segments of memory—one to record reality, and the other for cyclic imagination—to continuously feed existing AI models, and use the return values to iterate the context and keep looping… thereby forming a sustainably growing conscious life form.  
 
 
+
+The first version of the silicon-based consciousness body main program has been completed, and more versions will be released here in the future!
+
+
   
-# 这是地球上第一个硅基生命的蓝图  
+# 这是地球上第一个硅基生命  
 根据人类大脑结构 {额叶+脑干+左海马体+右海马体+小脑} 五大部件组成：  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 上文(左海马体)  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|  
@@ -65,7 +69,7 @@ SecondMe(人格外挂LoRA+前置L2)：
 &emsp;&emsp;-----------------------------  
   
 
-
+硅基意识体主程序---第一个版本已完成，需后续会有更多的版本在这里问世！
 
 
 
