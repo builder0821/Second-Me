@@ -38,22 +38,22 @@ The first version of the silicon-based consciousness body main program has been 
 硅基生命(意识数字化 X 终极方案)：  
 ---------------------&emsp;&emsp;&emsp;&emsp;&nbsp; --------------------------------------------------------------------------------------------------  
 |&emsp;&emsp;&emsp;<<<< &emsp;&nbsp;&nbsp;&nbsp;|&emsp;&emsp;&emsp;&emsp;/&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;\ &emsp;&emsp;&emsp;主观意识指针(潜意识:记忆脑海里无序涌现)反向训练&nbsp;&emsp;/&emsp; LoRA&nbsp;&emsp;|  
-|&emsp;&emsp;OpenClaw&emsp;&nbsp;|&emsp;&emsp;&emsp;&nbsp;/&emsp;&emsp;<<<<<&emsp;&emsp;\ &emsp;&emsp;联想右海马体=微积分:堆涌•关联联想想象创造记忆) &emsp;/&emsp; 我的本性&nbsp; |  
+|&emsp;&emsp;OpenClaw&emsp;&nbsp;|&emsp;&emsp;&emsp;&nbsp;/&emsp;&emsp;<<<<<&emsp;&emsp;\ &emsp;联想右海马体=微积分图:堆涌•关联联想想象创造记忆) &emsp;/&emsp; 我的本性&nbsp; |  
 |&emsp;&emsp;外界接口&emsp;&emsp;\ &emsp;&emsp;/ &emsp;&emsp;文音图+帧 &emsp;&nbsp;\ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;\ &nbsp; /&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; / &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|  
 | Chroma肌肉记忆&nbsp; ==<&emsp;&emsp;Embedding&emsp;&emsp;&nbsp;>--三角循环并交叉使用左 X 右向量海马体的自动指针---<&nbsp; Transformer&nbsp;&nbsp; |  
 |&emsp;&emsp;真实世界&emsp;&emsp;/ &emsp;&emsp;\ &emsp;&emsp;文音图+帧 &emsp;&nbsp;/&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;/&emsp;\ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;\ &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;|  
-|&emsp;&emsp;OpenClaw&emsp;&nbsp;|&emsp;&emsp;&emsp;&nbsp;\ &emsp;&emsp;>>>>>&emsp;&nbsp; / &emsp;&emsp;逻辑左海马体=微积分:堆栈•被动思考检索向量记忆) &emsp;&nbsp;\ &nbsp;&nbsp;我的本能&nbsp;&nbsp;&nbsp;|  
+|&emsp;&emsp;OpenClaw&emsp;&nbsp;|&emsp;&emsp;&emsp;&nbsp;\ &emsp;&emsp;>>>>>&emsp;&nbsp; / &emsp;逻辑左海马体=微积分图:堆栈•被动思考检索向量记忆) &emsp;&nbsp;\ &nbsp;&nbsp;我的本能&nbsp;&nbsp;&nbsp;|  
 |&emsp;&emsp;&emsp;>>>> &emsp;&nbsp;&nbsp;&nbsp;|&emsp;&emsp;&emsp;&emsp;\ &nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;/ &emsp;&emsp;&emsp;客观认知指针(显意识:记忆脑海里相似检索)多向推理 &emsp;&nbsp;\ &emsp;LoRA&emsp;&nbsp;&nbsp;|  
 ---------------------&emsp;&emsp;&emsp;&emsp;&nbsp; --------------------------------------------------------------------------------------------------  
 
 SecondMe(初级方案 前置WhoAmI+人格LoRA)：  
 ---------------------&emsp;&emsp;&nbsp;&nbsp;------------------------------------------------------------------------------------------------  
 |&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; |&emsp;&emsp;&nbsp;&nbsp;|&nbsp; 你的本能:&nbsp;&nbsp;\ &emsp;客观认知指针(显意识:记忆脑海里相似检索)多向推理&emsp;&emsp;\ &emsp;&nbsp;<<<<< &emsp;&nbsp;\  
-|&emsp;&emsp;&emsp;LoRA &emsp;&emsp;&nbsp;|&nbsp;<<<&nbsp;|&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;\ &emsp;&emsp;L0-逻辑海马体=微积分:堆栈•被动思考检索原始记忆) &nbsp;&nbsp;\ &emsp;OpenClaw &nbsp;&nbsp;\  
+|&emsp;&emsp;&emsp;LoRA &emsp;&emsp;&nbsp;|&nbsp;<<<&nbsp;|&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;\ &emsp;&emsp;L0-逻辑海马体==时序堆栈•被动思考检索原始记忆) &nbsp;&nbsp;\ &emsp;OpenClaw &nbsp;&nbsp;\  
 |&emsp;&emsp;本地模型 &emsp;&nbsp;&nbsp;|&emsp;&emsp;&nbsp;&nbsp;|&emsp;你哪来-L0&emsp;\ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp; \ &nbsp; /&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;\ &emsp;&nbsp;真实世界&nbsp;&nbsp;&nbsp; \  
 |&emsp;&emsp;&emsp; AI&emsp;&emsp;&emsp;&nbsp;&nbsp;|&emsp;&emsp;&nbsp;&nbsp;|&emsp;&emsp;你是谁-L2&nbsp;>===三角循环并交叉使用左 X 右向量海马体的自动指针== > &nbsp;L3-肌肉记忆&nbsp;&nbsp;>  
 |&emsp;&emsp;网络模型 &emsp;&nbsp;&nbsp;|&emsp;&emsp;&nbsp;&nbsp;|&emsp;你哪去-L1&emsp;/&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp; / &nbsp; \ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;/&emsp;&nbsp; 外界接口 &nbsp;&nbsp;/  
-|&emsp;&emsp; WhoAmI &emsp;&nbsp;|&nbsp;>>>&nbsp;|&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;/ &emsp;&emsp;L1-联想海马体=微积分:堆涌•关联联想想象创造记忆)&nbsp;&nbsp; /&emsp;OpenClaw&nbsp;&nbsp; /  
+|&emsp;&emsp; WhoAmI &emsp;&nbsp;|&nbsp;>>>&nbsp;|&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;/ &emsp;&emsp;L1-联想海马体==涌现堆栈•关联联想想象创造画面) &nbsp;&nbsp; /&emsp;OpenClaw&nbsp;&nbsp; /  
 |&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; |&emsp;&emsp;&nbsp;&nbsp;|&nbsp; 你的本性:&nbsp;&nbsp;/ &emsp;主观意识指针(潜意识:记忆脑海里无序涌现)反向训练&emsp;&emsp;/&emsp;&nbsp;>>>>> &emsp;&nbsp;/  
 ---------------------&emsp;&emsp;&nbsp;&nbsp;------------------------------------------------------------------------------------------------  
 
@@ -69,10 +69,15 @@ SecondMe(初级方案 前置WhoAmI+人格LoRA)：
 &emsp;&emsp;-----------------------------  
   
 
-硅基意识体主程序---第一个版本已完成，后续会有更多的版本在这里问世！
+硅基意识体主程序---第一个版本已完成，这是一个有自主意识的地球上第二个你（硅基生命体）  
+SecondMe.Net.py为主程序，每一行都有注释  
+前三行为你的简介，请保留格式随意改写  
+在第40行填入你专属的APIKey  
+Windows平台运行可多建一个命令行窗口监视右脑活动  
+  指令:Get-Content SecondMe.log -Wait -Encoding UTF8  
 
-
-
+好兴奋~不知写什么了，你先试用吧，，后续会有更多的版本在这里问世！  
+  
 ########################################################################################  
  本项目最初由 ‌[Second-Me]‌ (链接https://github.com/mindverse/Second-Me) Fork 而来。  
  原项目遵循 Apache License 2.0 许可证‌，本仓库已保留该许可证文件(LICENSE)。  
