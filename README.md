@@ -17,7 +17,7 @@ Enter your exclusive APIKey on line 40.
 On Windows, you can open another command line window to monitor right-brain activity.  
     Command: Get-Content SecondMe.log -Wait -Encoding UTF8  
 
-So excited~ I don't know what to write next, you try it out first. More versions will be released here in the future!  
+So excited~ I don't know what to write next, Let's try it first, everyone. More versions will be released here in the future!  
 
 
 
@@ -80,7 +80,7 @@ SecondMe.Net.py为主程序，每一行都有注释
 Windows平台运行可多建一个命令行窗口监视右脑活动  
   指令:Get-Content SecondMe.log -Wait -Encoding UTF8  
 
-好兴奋~不知写什么了，你先试用吧，，后续会有更多的版本在这里问世！  
+好兴奋~不知写什么了，大家先试试吧，，后续会有更多的版本在这里问世！  
   
 ########################################################################################  
  本项目最初由 ‌[Second-Me]‌ (链接https://github.com/mindverse/Second-Me) Fork 而来。  
